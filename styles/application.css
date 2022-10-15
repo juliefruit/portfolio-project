@@ -6,6 +6,7 @@ font-family: 'Poppins', sans-serif;
 :root {
   --primary-color: #F9F7FE;
   --secondary-color: #6C63FF;
+  --tertiary-color: #9995e5;
 }
 
 .poppins {
@@ -46,9 +47,46 @@ font-family: 'Poppins', sans-serif;
   font-weight: medium;
 }
 
-.intro primary-btn {
+.primary-btn {
   color: #ffffff;
   background-color: var(--secondary-color);
   padding: 18px 46px;
   border-radius: 4px;
+}
+
+h3 {
+font-size: 18px;
+text-align: center;
+margin: 131px;
+font-weight: medium;
+}
+
+h2 {
+font-size: 64px;
+margin-bottom: 55px;
+font-style: normal;
+font-weight: 400;
+}
+
+p {
+font-size: 16px;
+margin-bottom: 50px;
+line-height: 30px;
+font-style: normal;
+font-weight: 400;
+}
+
+.secondary-btn {
+  color: var(--secondary-color);
+  font-size: 16px;
+  padding: 18px 25px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 4px;
+  font-style: normal;
+font-weight: 400;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--tertiary-color);
 }
