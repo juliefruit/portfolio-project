@@ -9,6 +9,10 @@ font-family: 'Poppins', sans-serif;
   --tertiary-color: #9995e5;
 }
 
+body {
+  margin-bottom: 20px;
+}
+
 .poppins {
   font-family: 'Poppins', sans-serif;
 }
@@ -93,6 +97,10 @@ font-weight: 400;
   border-radius: 4px;
   font-style: normal;
 font-weight: 400;
+}
+
+.projects a {
+  color: #000000;
 }
 
 a:hover {
